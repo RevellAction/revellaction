@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/
+Allow: /wp-content/theme/
+Allow: /wp-content/uploads/
+Sitemap: https://www.revellaction.fr/sitemap-index.xml

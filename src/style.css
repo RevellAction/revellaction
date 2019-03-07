@@ -1,0 +1,18 @@
+/*
+Theme Name: RevellAction
+Theme URI: https://www.revellaction.fr
+Github Theme URI: https://github.com/RevellAction
+Description: The WordPress theme for the Rêvell’Action website.
+Author: Olivier Jullien
+Author URI: https://github.com/ojullien
+Template: namba
+Version: v1.1.3
+Tags: Namba Child Theme
+*/
+
+/*
+Now you can start adding your own styles here. Use !important to overwrite styles if needed. */
+.has-violet-revellaction-color{color: #59058D;}
+.has-orange-revellaction-color{color: #DA5C05;}
+.has-violet-revellaction-background-color {background-color: #59058D;}
+.has-orange-revellaction-background-color{background-color: #DA5C05;}

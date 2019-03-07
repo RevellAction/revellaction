@@ -1,0 +1,206 @@
+#
+# Apache2.4 enhancement
+# Project URL: https://github.com/ojullien/Apache2.4
+# Author: Olivier Jullien <https://github.com/ojullien>
+#
+
+#
+#  User dir configuration file
+#
+<IfModule dir_module>
+    DirectoryIndex index.php index.html
+</IfModule>
+
+#
+# Disable directory browsing
+#
+Options -Indexes
+
+#
+# Forbid access to log files
+#
+<FilesMatch "\.log$">
+  Require all denied
+</FilesMatch>
+
+#
+# Block access to other files that can expose sensitive information.
+#
+<FilesMatch "(^#.*#|\.(bak|conf|in[ci]|sh|sql)|~)$">
+    Require all denied
+</FilesMatch>
+<FilesMatch "^(readme\.txt|readme\.html|license.txt|license.commercial.txt)$">
+    Require all denied
+</FilesMatch>
+
+#
+# New mime types
+#
+<IfModule mime_module>
+    AddType image/webp webp
+    AddType video/h264 h264
+    AddType video/jpeg jpgv
+    AddType video/mp4 mp4 mp4v mpg4
+    AddType video/mpeg mpeg mpg mpe m1v m2v
+    AddType video/vnd.mpegurl mxu m4u
+    AddType video/x-m4v m4v
+    AddType video/x-matroska mkv mk3d mks
+    AddType video/x-ms-vob vob
+    AddType application/x-httpd-php .php .phtml
+    #AddHandler application/x-httpd-php .php .phtml
+    AddCharset utf-8 .css .js .json .jsonld .manifest .rss .webapp .webmanifest .xml
+</IfModule>
+
+#
+# Expire
+# 3hours = 10800 ; 1 week = 604800 ; 1 month =  2629800 ; 1 year = 31536000
+#
+<IfModule expires_module>
+     # enable expirations
+     ExpiresActive On
+     ExpiresDefault A10800
+
+     # Application
+     ExpiresByType application/atom+xml A10800
+     ExpiresByType application/EDI-X12 A10800
+     ExpiresByType application/EDIFACT A10800
+     ExpiresByType application/font-woff A2629800
+     ExpiresByType application/javascript A604800
+     ExpiresByType application/octet-stream A10800
+     ExpiresByType application/ogg A2629800
+     ExpiresByType application/pdf A2629800
+     ExpiresByType application/xhtml+xml A10800
+     ExpiresByType application/x-shockwave-flash A2629800
+     ExpiresByType application/json A10800
+     ExpiresByType application/ld+json A10800
+     ExpiresByType application/manifest+json A10800
+     ExpiresByType application/xml A10800
+     ExpiresByType application/rss+xml A10800
+     ExpiresByType application/zip A2629800
+     ExpiresByType application/vnd.ms-fontobject A2629800
+     ExpiresByType application/font-sfnt A2629800
+
+     # Audio
+     ExpiresByType audio/mpeg A2629800
+     ExpiresByType audio/mp3 A2629800
+     ExpiresByType audio/vnd.rn-realaudio A2629800
+     ExpiresByType audio/wav A2629800
+     ExpiresByType audio/x-ms-wma A2629800
+     ExpiresByType audio/x-wav A2629800
+
+     # Image
+     ExpiresByType image/gif A31536000
+     ExpiresByType image/jpeg A31536000
+     ExpiresByType image/pjpeg A31536000
+     ExpiresByType image/png A31536000
+     ExpiresByType image/tiff A31536000
+     ExpiresByType image/vnd.microsoft.icon A31536000
+     ExpiresByType image/svg+xml A31536000
+     ExpiresByType image/x-icon A31536000
+     ExpiresByType image/x-png A31536000
+     ExpiresByType image/webp A31536000
+
+     # Text
+     ExpiresByType text/cache-manifest A604800
+     ExpiresByType text/css A2629800
+     ExpiresByType text/csv A2629800
+     ExpiresByType text/html A10800
+     ExpiresByType text/javascript A604800
+     ExpiresByType text/plain A604800
+     ExpiresByType text/xml A10800
+
+     # video
+     ExpiresByType video/quicktime A2629800
+     ExpiresByType video/mpeg A2629800
+     ExpiresByType video/mp4 A2629800
+     ExpiresByType video/webm A2629800
+     ExpiresByType video/x-flv A2629800
+     ExpiresByType video/x-ms-wmv A2629800
+     ExpiresByType video/x-msvideo A2629800
+
+</IfModule>
+
+<IfModule headers_module>
+    Header append Cache-Control "public"
+</IfModule>
+
+#
+#No ETag
+#
+<IfModule headers_module>
+    Header unset ETag
+</IfModule>
+FileEtag none
+
+#
+# Compression
+#
+<IfModule deflate_module>
+    <FilesMatch "\.(js|css|txt|xml)$">
+        SetOutputFilter DEFLATE
+    </FilesMatch>
+</IfModule>
+
+#
+# Deal with user agents that deliberately violate open standards by misusing DNT (DNT *must* be a specific
+# end-user choice)
+#
+<IfModule headers_module>
+    RequestHeader unset DNT env=bad_DNT
+</IfModule>
+
+#
+# Setting this header will prevent MSIE from interpreting files as something
+# else than declared by the content type in the HTTP headers.
+# Requires mod_headers to be enabled.
+#
+<IfModule headers_module>
+    Header always set X-Content-Type-Options: "nosniff"
+</IfModule>
+
+#
+# Setting this header will prevent other sites from embedding pages from this
+# site as frames. This defends against clickjacking attacks.
+# Requires mod_headers to be enabled.
+#
+<IfModule headers_module>
+
+    Header always set X-Frame-Options DENY
+
+    # `mod_headers` cannot match based on the content-type, however,
+    # the `X-Frame-Options` response header should be sent only for
+    # HTML documents and not for the other resources.
+    #<FilesMatch "\.(bmp|css|eot|flv|gif|gz|ic[os]|jpe?g|m?js|json(ld)?|m4[av]|manifest|mp4|og[agv]|otf|pdf|png|rss|svgz?|swf|tt[cf]|txt|vcard|vcf|webapp|web[mp]|webmanifest|woff2?|xml)$">
+    #     Header unset X-Frame-Options
+    #</FilesMatch>
+
+</IfModule>
+
+#
+# Setting this header will stop pages from loading when they detect reflected
+# cross-site scripting (XSS) attacks. Although these protections are largely
+# unnecessary in modern browsers when sites implement a strong Content-Security-Policy
+# that disables the use of inline JavaScript ('unsafe-inline'), they can still provide
+# protections for users of older web browsers that don't yet support CSP.
+# Requires mod_headers to be enabled.
+#
+<IfModule headers_module>
+    # X-XSS-Protection
+    # "0" means XSS filter disabled, "1" means XSS filter enabled and sanitized the page if attack detected,
+    # "1;mode=block" means XSS filter enabled and prevented rendering the page if attack detected
+    # "1;report=http://example.com/report_URI" means XSS filter enabled and reported the violation if attack detected
+    Header always set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

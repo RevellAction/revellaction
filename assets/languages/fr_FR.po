@@ -1,0 +1,1114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Namba\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-10 09:21+0000\n"
+"PO-Revision-Date: 2019-03-04 14:54+0100\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Loco-Version: 2.2.0; wp-5.0\n"
+"Last-Translator: Olivier Jullien\n"
+"Language: fr\n"
+
+#: functions.php:300
+#, php-format
+msgid " %s "
+msgstr ""
+
+#: inc/widgets.php:589
+msgid " Audio"
+msgstr ""
+
+#: inc/widgets.php:574
+msgid " Gallery"
+msgstr " Galerie"
+
+#: inc/widgets.php:571 inc/widgets.php:623
+msgid " Image"
+msgstr ""
+
+#: inc/widgets.php:583
+msgid " Link"
+msgstr " Lien"
+
+#: inc/widgets.php:577
+msgid " Quote"
+msgstr " Citation"
+
+#: inc/widgets.php:580
+msgid " Status"
+msgstr " Standard"
+
+#: inc/widgets.php:586
+msgid " Video"
+msgstr " Vid&eacute;o"
+
+#: content-gallery.php:20 content-single.php:37 content-status.php:37
+#: content.php:22 content.php:60 content-audio.php:37 content-video.php:37
+#: content-quote.php:37 content-link.php:37 content-image.php:37
+#, php-format
+msgid "% comments"
+msgstr "% commentaires"
+
+#. 1: date
+#: functions.php:304
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: inc/theme-options.php:137
+#, php-format
+msgid "%s Theme Options"
+msgstr ""
+
+#: functions.php:251
+msgid "&#91;...&#93;"
+msgstr ""
+
+#: functions.php:245
+msgid "&#91;Read more&#93;"
+msgstr "&#91;Lire plus&#93;"
+
+#: inc/theme-options.php:283
+msgid ""
+". Then copy your logo image file URL and insert the URL here. If you want to "
+"include a Retina-ready logo image, just prepare the image 2x the actual size "
+"(e.g. 270x270px), but still type in the 135x135 as width and height value "
+"below."
+msgstr ""
+". Ensuite copiez l&apos;URL de votre logo et ins&eacute;rez le ici. Si vous "
+"souhaitez inclure une image de logo compatible Retina, il suffit de "
+"cr&eacute;er l&apos;image &agrave; 2x la taille r&eacute;elle (par exemple, "
+"270x270px), mais il faut quand m&ecirc;me saisir 135x135 comme dimensions."
+
+#: content-gallery.php:20 content-single.php:37 content-status.php:37
+#: content.php:22 content.php:60 content-audio.php:37 content-video.php:37
+#: content-quote.php:37 content-link.php:37 content-image.php:37
+msgid "0 comment"
+msgstr "0 commentaire"
+
+#: content-gallery.php:20 content-single.php:37 content-status.php:37
+#: content.php:22 content.php:60 content-audio.php:37 content-video.php:37
+#: content-quote.php:37 content-link.php:37 content-image.php:37
+msgid "1 comment"
+msgstr "1 commentaire"
+
+#: comments.php:28
+#, php-format
+msgid "1 Comment so far"
+msgid_plural "%1$s Comments"
+msgstr[0] "1 commentaire jusqu&apos;&agrave; pr&eacute;sent"
+msgstr[1] "%1$s Commentaires"
+
+#: inc/widgets.php:101
+msgid "500px"
+msgstr ""
+
+#: inc/widgets.php:292
+msgid "500px URL:"
+msgstr ""
+
+#: content-gallery.php:25 content-single.php:42 content-status.php:42
+#: content.php:27 content.php:65 content-audio.php:42 content-video.php:42
+#: content-quote.php:42 content-link.php:42 content-image.php:42
+#, php-format
+msgid "<a href=\"%1$s\" title=\"%2$s\">by %3$s</a>"
+msgstr "<a href=\"%1$s\" title=\"%2$s\">par %3$s</a>"
+
+#: comments.php:63
+msgid ""
+"<p class=\"comment-note\">Required fields are marked <span class=\"required"
+"\">*</span>.</p>"
+msgstr ""
+"<p class=\"comment-note\">Les champs obligatoires sont marqu&eacute;s <span "
+"class=\"required\">*</span>.</p>"
+
+#: functions.php:403
+msgid "<span>&laquo; Older Posts</span>"
+msgstr "<span>&laquo; Articles plus anciens</span>"
+
+#: comments.php:47
+msgid "<span>&laquo; Older</span>"
+msgstr "<span>&laquo; Plus anciens</span>"
+
+#: single.php:26
+msgid "<span>&laquo; Previous Post</span>"
+msgstr "<span>&laquo; Article pr&eacute;c&eacute;dent</span>"
+
+#: image.php:66
+msgid "<span>&laquo; Previous</span>"
+msgstr "<span>&laquo; pr&eacute;c&eacute;dent</span>"
+
+#: comments.php:48
+msgid "<span>Newer &raquo;</span>"
+msgstr "<span>Plus r&eacute;cent &raquo;</span>"
+
+#: functions.php:404
+msgid "<span>Newer Posts &raquo;</span>"
+msgstr "<span>Articles plus récents &raquo;</span>"
+
+#: image.php:67
+msgid "<span>Next &raquo;</span>"
+msgstr "<span>Suivant &raquo;</span>"
+
+#: single.php:25
+msgid "<span>Next Post  &raquo;</span>"
+msgstr "<span>Article suivant  &raquo;</span>"
+
+#: functions.php:327
+msgid "<span>Pingback:</span>"
+msgstr ""
+
+#: inc/widgets.php:550
+msgid "A list of Post Formats"
+msgstr "Une liste de formats d&apos;articles"
+
+#: inc/widgets.php:412
+msgid "A number of Recent Posts filtered by category"
+msgstr ""
+"Un certain nombre de messages r&eacute;cents filtr&eacute;s par cat&eacute;"
+"gorie"
+
+#: inc/widgets.php:672
+msgid "A Sub Headline for the Main Content Widget Areas"
+msgstr "Un sous-titre pour les zones de widgets de contenu principal"
+
+#: functions.php:381
+msgid "Above Footer Widget Area"
+msgstr "Zone de widget situ&eacute; au-dessus du pied de page"
+
+#: archive.php:62
+msgid "All Audio Posts"
+msgstr "Tous les articles de format Audio"
+
+#: archive.php:44
+msgid "All Gallery Posts"
+msgstr "Tous les articles de format Galerie"
+
+#: archive.php:47
+msgid "All Image Posts"
+msgstr "Tous les articles de format Image"
+
+#: archive.php:59
+msgid "All Link Posts"
+msgstr "Tous les articles de format Lien"
+
+#: content-gallery.php:27 content-single.php:44 content-status.php:44
+#: content.php:29 content.php:67 content-audio.php:44 content-video.php:44
+#: content-quote.php:44 content-link.php:44 content-image.php:44
+#, php-format
+msgid "All posts by %s"
+msgstr "Tous les articles par %s"
+
+#: archive.php:27
+#, php-format
+msgid "All Posts by &lsquo;%s&rsquo;"
+msgstr "Tous les articles par &lsquo;%s&rsquo;"
+
+#: archive.php:17
+#, php-format
+msgid "All Posts Filed in &lsquo;%s&rsquo;"
+msgstr "Tous les articles class&eacute;s dans &lsquo;%s&rsquo;"
+
+#: archive.php:20
+#, php-format
+msgid "All Posts Tagged &lsquo;%s&rsquo;"
+msgstr "Tous les articles &eacute;tiquet&eacute;s &lsquo;%s&rsquo;"
+
+#: archive.php:53
+msgid "All Quote Posts"
+msgstr "Tous les articles de format Citation"
+
+#: archive.php:56
+msgid "All Status Posts"
+msgstr "Tous les articles de format Standard"
+
+#: archive.php:50
+msgid "All Video Posts"
+msgstr "Tous les articles de format Vid&eacute;o"
+
+#: 404.php:19
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help!"
+msgstr ""
+"Toutes mes excuses, mais la page que vous avez demand&eacute;e n'a pas pu "
+"&ecirc;tre trouv&eacute;e. Peut-&ecirc;tre que le bouton Search vous aidera !"
+
+#: inc/widgets.php:81
+msgid "App.net"
+msgstr ""
+
+#: inc/widgets.php:272
+msgid "App.net URL:"
+msgstr ""
+
+#. Name of the template
+msgid "Archive Page Template"
+msgstr "Mod&egrave;le de page d&apos;archives"
+
+#: archive.php:65
+msgid "Archives"
+msgstr ""
+
+#: content-single.php:28 content.php:15 content.php:53
+msgid "Article"
+msgstr ""
+
+#: content-single.php:24 content-audio.php:30 inc/widgets.php:475
+#: inc/widgets.php:653
+msgid "Audio"
+msgstr ""
+
+#: inc/theme-options.php:227 inc/theme-options.php:229
+msgid "Audio Post Format Color"
+msgstr "Couleur des articles de format Audio"
+
+#: inc/widgets.php:131
+msgid "Behance Network"
+msgstr ""
+
+#: inc/widgets.php:322
+msgid "Behance Network URL:"
+msgstr ""
+
+#: functions.php:361
+msgid "Below Main Content Widget Area"
+msgstr "En dessous la zone de widget de contenu principal"
+
+#: functions.php:62
+msgid "black"
+msgstr "noir"
+
+#: inc/theme-options.php:253 inc/theme-options.php:255
+msgid "Blog Layout"
+msgstr "Mise en page"
+
+#: inc/theme-options.php:252
+msgid "Blog Layout Options"
+msgstr "Options de mise en page"
+
+#: functions.php:97
+msgid "blue"
+msgstr "bleu"
+
+#. If there are characters in your language that are not
+#. supported by Cabin translate this to 'off'. Do not translate
+#. into your own language.
+#: functions.php:147
+msgctxt "Cabin font: on or off"
+msgid "on"
+msgstr ""
+
+#: content-single.php:75
+msgid "Category"
+msgstr "Cat&eacute;gorie"
+
+#: inc/widgets.php:530
+msgid "Category ID numbers (to choose which categories to include):"
+msgstr ""
+"Num&eacute;ros d&apos;identification des cat&eacute;gories (pour choisir les "
+"cat&eacute;gories &agrave; inclure):"
+
+#: inc/theme-options.php:334
+msgid ""
+"Check this box to include share buttons (for Twitter, Facebook, Google+) on "
+"your blogs front page and on single post pages."
+msgstr ""
+"Cochez cette case pour inclure des boutons de partage (pour Twitter, "
+"Facebook, Google+) sur la page d&apos;accueil du blog et sur les articles."
+
+#: inc/theme-options.php:343
+msgid ""
+"Check this box to include the share post buttons <strong>only</strong> on "
+"single posts (below the post content)."
+msgstr ""
+"Cochez cette case pour n&apos;inclure les boutons de partage <strong>que </"
+"strong> pour les articles."
+
+#: inc/theme-options.php:310
+msgid ""
+"Check this box to show automatic post excerpts for standard posts. With this "
+"option you will not need to add the more tag in posts."
+msgstr ""
+"Cochez cette case pour g&eacute;n&eacute;rer des extraits de mani&egrave;re "
+"automatique pour les articles de format standard. Avec cette option, vous "
+"n&apos;aurez pas besoin d&rsquo;ajouter la balise &quot;Lire plus&quot;."
+
+#: inc/theme-options.php:233
+#, php-format
+msgid ""
+"Choose your Audio post format color, the default color is: <strong>%s</"
+"strong>."
+msgstr ""
+"Choisissez la couleur des articles format Audio, la couleur par d&eacute;"
+"faut est : <strong>%s</strong>."
+
+#: inc/theme-options.php:189
+#, php-format
+msgid ""
+"Choose your Gallery post format color, the default color is: <strong>%s</"
+"strong>."
+msgstr ""
+"Choisissez la couleur des articles format Galerie, la couleur par d&eacute;"
+"faut est : <strong>%s</strong>."
+
+#: inc/theme-options.php:178
+#, php-format
+msgid ""
+"Choose your Image post format color, the default color is: <strong>%s</"
+"strong>."
+msgstr ""
+"Choisissez la couleur des articles format Image, la couleur par d&eacute;"
+"faut est : <strong>%s</strong>."
+
+#: inc/theme-options.php:211
+#, php-format
+msgid ""
+"Choose your Link post format color, the default color is: <strong>%s</"
+"strong>."
+msgstr ""
+"Choisissez la couleur des articles format Lien, la couleur par d&eacute;faut "
+"est : <strong>%s</strong>."
+
+#: inc/theme-options.php:167
+#, php-format
+msgid ""
+"Choose your main background color. The default background color is: <strong>"
+"%s</strong>."
+msgstr ""
+"Choisissez votre couleur de fond principale. Par d&eacute;faut la couleur "
+"est : <strong>%s</strong>."
+
+#: inc/theme-options.php:156
+#, php-format
+msgid ""
+"Choose your main theme color (used for standard posts and as the default "
+"link color). The default color is: <strong>%s</strong>."
+msgstr ""
+"Choisissez la couleur principale du th&egrave;me (utilis&eacute;e pour les "
+"articles de format standard et les liens). Par d&eacute;faut la couleur "
+"est : <strong>%s</strong>."
+
+#: inc/theme-options.php:200
+#, php-format
+msgid ""
+"Choose your Quote post format color, the default color is: <strong>%s</"
+"strong>."
+msgstr ""
+"Choisissez la couleur des articles format Citation, la couleur par d&eacute;"
+"faut est : <strong>%s</strong>."
+
+#: inc/theme-options.php:244
+#, php-format
+msgid ""
+"Choose your Status post format color, the default color is: <strong>%s</"
+"strong>."
+msgstr ""
+"Choisissez la couleur des articles format Standard, la couleur par d&eacute;"
+"faut est : <strong>%s</strong>."
+
+#: inc/theme-options.php:222
+#, php-format
+msgid ""
+"Choose your Video post format color, the default color is: <strong>%s</"
+"strong>."
+msgstr ""
+"Choisissez la couleur des articles format Vid&eacute;o, la couleur par "
+"d&eacute;faut est : <strong>%s</strong>."
+
+#: inc/widgets.php:491
+msgid "comment 1"
+msgstr "commentaire 1"
+
+#: inc/widgets.php:491
+msgid "comments %"
+msgstr "commentaires %"
+
+#: inc/widgets.php:491
+msgid "comments 0"
+msgstr "commentaire 0"
+
+#: comments.php:58
+msgid "Comments are closed."
+msgstr "Les commentaires sont ferm&eacute;s."
+
+#: inc/theme-options.php:148
+msgid "Custom Colors"
+msgstr "Couleurs personnalis&eacute;es"
+
+#: inc/theme-options.php:350
+msgid "Custom CSS"
+msgstr "CSS personnalis&eacute;s"
+
+#: inc/theme-options.php:277
+msgid "Custom Logo, Post Excerpts and Footer Text"
+msgstr "Logo, extraits de message et texte de bas de page personnalis&eacutes"
+
+#: inc/theme-options.php:319
+msgid "Customize the footer credit text. Standard HTML is allowed."
+msgstr ""
+"Personnalisez les cr&eacute;dits de pied de page. Le HTML standard est "
+"autoris&eacute;."
+
+#: archive.php:35
+#, php-format
+msgid "Daily Archives of: %s"
+msgstr "Archives quotidiennes de: %s"
+
+#: inc/widgets.php:136
+msgid "deviantART"
+msgstr ""
+
+#: inc/widgets.php:327
+msgid "deviantART URL:"
+msgstr ""
+
+#: inc/widgets.php:116
+msgid "Dribbble"
+msgstr ""
+
+#: inc/widgets.php:307
+msgid "Dribbble URL:"
+msgstr ""
+
+#: functions.php:307 functions.php:328 content-gallery.php:31
+#: content-single.php:48 content-status.php:48 content.php:33 content.php:71
+#: content-audio.php:48 content-video.php:48 content-quote.php:48
+#: content-link.php:48 content-image.php:48
+msgid "Edit"
+msgstr "Modifier"
+
+#. Author of the theme
+msgid "Elmastudio"
+msgstr ""
+
+#: inc/widgets.php:69
+msgid "Facebook"
+msgstr ""
+
+#: inc/widgets.php:262
+msgid "Facebook URL:"
+msgstr ""
+
+#: inc/widgets.php:121
+msgid "Ffffound"
+msgstr ""
+
+#: inc/widgets.php:312
+msgid "Ffffound URL:"
+msgstr ""
+
+#: page-archive.php:22
+msgid "Filter by Tags"
+msgstr "Filtrer par &eacute;tiquettes"
+
+#: inc/widgets.php:86
+msgid "Flickr"
+msgstr ""
+
+#: inc/widgets.php:277
+msgid "Flickr URL:"
+msgstr ""
+
+#: inc/theme-options.php:315 inc/theme-options.php:317
+msgid "Footer Credit Text"
+msgstr "Cr&eacute;dits de bas de page"
+
+#: functions.php:126
+msgid "Footer Navigation (no sub menus supported)"
+msgstr "Navigation en bas de page (aucun sous-menu pris en charge)"
+
+#: inc/widgets.php:166
+msgid "Foursquare"
+msgstr ""
+
+#: inc/widgets.php:357
+msgid "Foursquare URL:"
+msgstr ""
+
+#: content-gallery.php:13 content-single.php:18 inc/widgets.php:463
+#: inc/widgets.php:628
+msgid "Gallery"
+msgstr "Galerie"
+
+#: inc/theme-options.php:183 inc/theme-options.php:185
+msgid "Gallery Post Format Color"
+msgstr "Couleur des articles de format Galerie"
+
+#: inc/widgets.php:171
+msgid "GitHub"
+msgstr ""
+
+#: inc/widgets.php:362
+msgid "GitHub URL:"
+msgstr ""
+
+#: inc/widgets.php:75
+msgid "Google+"
+msgstr ""
+
+#: inc/widgets.php:267
+msgid "Google+ URL:"
+msgstr ""
+
+#: inc/widgets.php:156
+msgid "Grooveshark"
+msgstr ""
+
+#: inc/widgets.php:347
+msgid "Grooveshark URL:"
+msgstr ""
+
+#: inc/widgets.php:670
+msgid "Headlines (Namba)"
+msgstr "Titres (Namba)"
+
+#: footer.php:53
+msgid "https://wordpress.org/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.elmastudio.de/en/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.elmastudio.de/en/themes/namba/"
+msgstr ""
+
+#: content-single.php:14 content-image.php:30 inc/widgets.php:455
+msgid "Image"
+msgstr ""
+
+#: inc/theme-options.php:172 inc/theme-options.php:174
+msgid "Image Post Format Color"
+msgstr "Couleur des articles de format Image"
+
+#: inc/theme-options.php:352 inc/theme-options.php:354
+msgid "Include Custom CSS"
+msgstr "Inclure du CSS personnalis&eacute;"
+
+#: inc/theme-options.php:356
+msgid "Include custom CSS styles, use !important to overwrite existing styles."
+msgstr ""
+"Inclure des styles CSS personnalis&eacute;s, utiliser !important pour "
+"&eacute;craser les styles existants."
+
+#: inc/theme-options.php:301
+msgid "Include your custom logo height, e.g. 135 (value only, no unit)"
+msgstr ""
+"Inclure la hauteur du logo, ex: 135 (valeur seulement, sans unit&eacute;)"
+
+#: inc/theme-options.php:292
+msgid "Include your custom logo width, e.g. 135 (value only, no unit)"
+msgstr ""
+"Inclure la largeur du logo, ex: 135 (valeur seulement, sans unit&eacute;)"
+
+#: header.php:37
+msgid "Info"
+msgstr ""
+
+#: inc/widgets.php:91
+msgid "Instagram"
+msgstr ""
+
+#: inc/widgets.php:282
+msgid "Instagram URL:"
+msgstr ""
+
+#: archive.php:107
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr "Il semble que nous ne pouvons pas trouver ce que vous rechercher."
+
+#: functions.php:47
+msgid "L"
+msgstr ""
+
+#: functions.php:46
+msgid "large"
+msgstr "grand"
+
+#: functions.php:52
+msgid "larger"
+msgstr "plus grand"
+
+#: inc/widgets.php:342
+msgid "Last.fm URL:"
+msgstr ""
+
+#: inc/widgets.php:151
+msgid "Lastfm"
+msgstr ""
+
+#: functions.php:92
+msgid "light blue"
+msgstr "bleu clair"
+
+#: functions.php:87
+msgid "light green"
+msgstr "vert clair"
+
+#: functions.php:72
+msgid "light grey"
+msgstr "gris clair"
+
+#: functions.php:82
+msgid "light red"
+msgstr "rouge clair"
+
+#: functions.php:77
+msgid "light yellow"
+msgstr "jaune clair"
+
+#: content-single.php:16 content-link.php:30 inc/widgets.php:459
+#: inc/widgets.php:643
+msgid "Link"
+msgstr "Lien"
+
+#: inc/theme-options.php:205 inc/theme-options.php:207
+msgid "Link Post Format Color"
+msgstr "Couleur des articles de format Lien"
+
+#: inc/widgets.php:176
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/widgets.php:367
+msgid "Linkedin URL:"
+msgstr ""
+
+#: inc/theme-options.php:279 inc/theme-options.php:281
+msgid "Logo Image"
+msgstr ""
+
+#: inc/theme-options.php:297 inc/theme-options.php:299
+msgid "Logo Image Height"
+msgstr "Hauteur du logo"
+
+#: inc/theme-options.php:288 inc/theme-options.php:290
+msgid "Logo Image Width"
+msgstr "Largeur du logo"
+
+#: functions.php:41
+msgid "M"
+msgstr ""
+
+#: inc/theme-options.php:161 inc/theme-options.php:163
+msgid "Main Background Color"
+msgstr "Couleur principale d&apos;arri&egrave;re-plan"
+
+#: inc/theme-options.php:150 inc/theme-options.php:152
+msgid "Main Theme Color"
+msgstr "Couleur principale du th&egrave;me"
+
+#: functions.php:341
+msgid "Main Widget Area"
+msgstr "Zone de widget principale"
+
+#: header.php:36
+msgid "Menu"
+msgstr ""
+
+#: archive.php:38
+#, php-format
+msgid "Monthly Archives of: %s"
+msgstr "Archives mensuelles de: %s"
+
+#. Name of the theme
+msgid "Namba"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Namba is a Premium blog and magazine theme with a minimal, fresh, responsive "
+"web design and flexible, easy-to-use features. The post format filters and "
+"color options are a special theme highlight to make your blog more fun and "
+"exiting to read and the Namba widget options offer lots of intersting ways "
+"to feature your blog content."
+msgstr ""
+
+#: 404.php:15 archive.php:103 search.php:36
+msgid "Nothing Found"
+msgstr "Rien trouv&eacute;"
+
+#: comments.php:65
+msgctxt "noun"
+msgid "Comment <span class=\"required\">*</span>"
+msgstr "Commentaire <span class=\"required\">*</span>"
+
+#: inc/widgets.php:525
+msgid "Number of posts to display:"
+msgstr "Nombre d&apos;articles &agrave; afficher:"
+
+#: inc/theme-options.php:85
+msgid "One Column"
+msgstr "Une colonne"
+
+#: content-gallery.php:52 content-single.php:61 content.php:94
+msgid "Pages:"
+msgstr ""
+
+#: content-gallery.php:33 content-single.php:55 content.php:35 content.php:40
+#: content.php:48 content.php:73 inc/widgets.php:449
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalink vers %s"
+
+#: inc/widgets.php:96
+msgid "Picasa"
+msgstr ""
+
+#: inc/widgets.php:287
+msgid "Picasa URL:"
+msgstr ""
+
+#: inc/widgets.php:126
+msgid "Pinterest"
+msgstr ""
+
+#: inc/widgets.php:317
+msgid "Pinterest URL:"
+msgstr ""
+
+#: searchform.php:11
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: comments.php:66
+msgid "Post Comment"
+msgstr "Publier un commentaire"
+
+#: inc/theme-options.php:306 inc/theme-options.php:308
+msgid "Post Excerpts"
+msgstr "Extraits d&apos;article"
+
+#: inc/widgets.php:548
+msgid "Post Formats (Namba)"
+msgstr "Formats d'article (Namba)"
+
+#: content-single.php:68
+#, php-format
+msgid "Posted by %s"
+msgstr "Publi&eacute; par %s"
+
+#: functions.php:371
+msgid "Posts by Category Widget Area"
+msgstr ""
+"Zone de widget des articles r&eacute;cents filtr&eacute;s par cat&eacute;"
+"gorie"
+
+#: functions.php:125
+msgid "Primary Navigation"
+msgstr "Menu de navigation principal"
+
+#: footer.php:53
+msgid "Proudly powered by"
+msgstr "Fi&egrave;rement propuls&eacute; par"
+
+#: content-single.php:20 content-quote.php:30 inc/widgets.php:467
+#: inc/widgets.php:633
+msgid "Quote"
+msgstr "Citation"
+
+#: inc/theme-options.php:194 inc/theme-options.php:196
+msgid "Quote Post Format Color"
+msgstr "Couleur des articles de format Citation"
+
+#: inc/widgets.php:410
+msgid "Recent Posts by Category (Namba)"
+msgstr "Articles r&eacute;cents par cat&eacute;gorie (Namba)"
+
+#: functions.php:40
+msgid "regular"
+msgstr ""
+
+#: functions.php:314
+msgid "Reply"
+msgstr "R&eacute;pondre"
+
+#: inc/widgets.php:201
+msgid "RSS Comments"
+msgstr "Flux RSS des commentaires"
+
+#: inc/widgets.php:196
+msgid "RSS Feed"
+msgstr "Flux RSS"
+
+#: inc/widgets.php:392
+msgid "RSS for Comments URL:"
+msgstr "URL du flux RSS des commentaires:"
+
+#: inc/widgets.php:387
+msgid "RSS-Feed URL:"
+msgstr "URL du flux RSS:"
+
+#: functions.php:35
+msgid "S"
+msgstr ""
+
+#: functions.php:149
+msgctxt "Satisfy font: on or off"
+msgid "on"
+msgstr ""
+
+#: search.php:15
+#, php-format
+msgid "Search Results for &lsquo;%s&rsquo;"
+msgstr "R&eacute;sultats de recherche pour &lsquo;%s&rsquo;"
+
+#: inc/theme-options.php:328
+msgid "Share Buttons"
+msgstr "Boutons de partage"
+
+#: inc/theme-options.php:330 inc/theme-options.php:332
+msgid "Share option for posts"
+msgstr "Options de partage des arcticles"
+
+#: inc/theme-options.php:339 inc/theme-options.php:341
+msgid "Share option on single posts only"
+msgstr "Bouton de partage des articles seulement"
+
+#: share.php:10
+msgid "Share This"
+msgstr "Partager ceci"
+
+#: inc/widgets.php:20
+msgid "Show icons with links to your social profiles"
+msgstr "Afficher des ic&ocirc;nes avec des liens vers vos profils sociaux"
+
+#: inc/widgets.php:146
+msgid "Slideshare"
+msgstr ""
+
+#: inc/widgets.php:337
+msgid "Slideshare URL:"
+msgstr ""
+
+#: functions.php:34
+msgid "small"
+msgstr "petit"
+
+#: inc/widgets.php:18
+msgid "Social Links (Namba)"
+msgstr ""
+
+#: search.php:39
+msgid "Sorry, but nothing matched your search criteria. Please try again!"
+msgstr ""
+"D&eacute;sol&eacute;, mais rien ne correspond &agrave; vos crit&egrave;res "
+"de recherche. Veuillez r&eacute;essayer !"
+
+#: inc/widgets.php:161
+msgid "Soundcloud"
+msgstr ""
+
+#: inc/widgets.php:352
+msgid "Soundcloud URL:"
+msgstr ""
+
+#: inc/widgets.php:141
+msgid "Squidoo"
+msgstr ""
+
+#: inc/widgets.php:332
+msgid "Squidoo URL:"
+msgstr ""
+
+#: inc/widgets.php:483
+msgid "Standard"
+msgstr "Par d&eacute;faut"
+
+#: content-single.php:26 content-status.php:30 inc/widgets.php:479
+#: inc/widgets.php:638
+msgid "Status"
+msgstr "Standard"
+
+#: inc/theme-options.php:238 inc/theme-options.php:240
+msgid "Status Post Format Color"
+msgstr "Couleur des articles de format Standard"
+
+#: searchform.php:12
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: content-single.php:78
+msgid "Tags"
+msgstr "&Eacute;tiquettes"
+
+#: page-archive.php:27
+msgid "The Latest 30 Posts"
+msgstr "Les derniers 30 articles"
+
+#: page-archive.php:32
+msgid "The Monthly Archive"
+msgstr "Les archives mensuelles"
+
+#. Name of page
+#: inc/theme-options.php:63 inc/theme-options.php:64
+msgid "Theme Options"
+msgstr ""
+
+#: footer.php:54
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr "Theme: %1$s par %2$s"
+
+#: comments.php:12
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Cet article est prot&eacute;g&eacute; par mot de passe. Entrez le mot de "
+"passe pour afficher les commentaires."
+
+#: inc/widgets.php:252 inc/widgets.php:520 inc/widgets.php:617
+#: inc/widgets.php:703
+msgid "Title:"
+msgstr "Titre:"
+
+#: functions.php:351
+msgid "Top Widget Area"
+msgstr "Zone de widget de haut de page"
+
+#: inc/widgets.php:191
+msgid "Tumblr"
+msgstr ""
+
+#: inc/widgets.php:382
+msgid "Tumblr URL:"
+msgstr ""
+
+#: share.php:13
+msgid "Tweet"
+msgstr ""
+
+#: inc/widgets.php:63
+msgid "Twitter"
+msgstr ""
+
+#: inc/widgets.php:257
+msgid "Twitter URL:"
+msgstr ""
+
+#: inc/theme-options.php:80
+msgid "Two Column"
+msgstr "Deux colonnes"
+
+#: inc/theme-options.php:283
+msgid ""
+"Upload your own logo image with a max width of 225px and a flexible height "
+"(e.g. 135x135px) using the "
+msgstr ""
+"T&eacute;l&eacute;chargez votre propre logo d&apos;une largeur maximale de "
+"225px et d&apos;une hauteur flexible (par ex. 135x135px) en utilisant l&apos;"
+"option "
+
+#: content-single.php:22 content-video.php:30 inc/widgets.php:471
+#: inc/widgets.php:648
+msgid "Video"
+msgstr "Vid&eacute;o"
+
+#: inc/theme-options.php:216 inc/theme-options.php:218
+msgid "Video Post Format Color"
+msgstr "Couleur des articles de format Vid&eacute;o"
+
+#: inc/widgets.php:111
+msgid "Vimeo"
+msgstr ""
+
+#: inc/widgets.php:302
+msgid "Vimeo URL:"
+msgstr ""
+
+#: functions.php:67
+msgid "white"
+msgstr "blanc"
+
+#: functions.php:353
+msgid "Widget area for the social links at the top of the main content area."
+msgstr ""
+"Zone de widget du haut de page permettant de placer le widget des liens vers "
+"les r&eacute;seaux sociaux."
+
+#: functions.php:373
+msgid ""
+"Widget area to include 2, 4, 6 oder more Recent Posts by Category widgets "
+"below the main content area. The widgets will appear in a 2-column grid and "
+"can also include the Namba Headlines widget to give the Recent Posts widget "
+"a bigger headline."
+msgstr ""
+"Zone de widget, sous la zone de contenu principale, permettant d&apos;"
+"inclure 2, 4, 6 ou plusieurs widgets d&apos;articles r&eacute;cents "
+"filtr&eacute;s par cat&eacute;gorie. Les widgets appara&icirc;tront dans une "
+"grille &agrave; 2 colonnes et peuvent &eacute;galement inclure le widget "
+"Titres Namba pour afficher un titre plus grand."
+
+#: functions.php:363
+msgid ""
+"Widgets in this widget area will appear in a single-column below the main "
+"content area."
+msgstr ""
+"Les widgets de cette zone de widgets appara&icirc;tront dans une seule "
+"colonne sous la zone de contenu principale."
+
+#: functions.php:383
+msgid "Widgets will appear in a single-column above the footer area."
+msgstr ""
+"Les widgets appara&icirc;tront dans une seule colonne au-dessus de la zone "
+"du pied de page."
+
+#: functions.php:343
+msgid "Widgets will appear in the left sidebar below the main navigation."
+msgstr ""
+"Les widgets appara&icirc;tront dans la barre lat&eacute;rale gauche sous la "
+"navigation principale."
+
+#: inc/widgets.php:186
+msgid "WordPress"
+msgstr ""
+
+#: inc/theme-options.php:283
+msgid "WordPress Media Uploader"
+msgstr ""
+
+#: inc/widgets.php:377
+msgid "WordPress URL:"
+msgstr ""
+
+#: footer.php:53
+msgid "WordPress."
+msgstr ""
+
+#: inc/widgets.php:181
+msgid "Xing"
+msgstr ""
+
+#: inc/widgets.php:372
+msgid "Xing URL:"
+msgstr ""
+
+#: functions.php:53
+msgid "XL"
+msgstr ""
+
+#: archive.php:41
+#, php-format
+msgid "Yearly Archives of: %s"
+msgstr "Archives annuelles de: %s"
+
+#: functions.php:312
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de mod&eacute;ration."
+
+#: inc/widgets.php:106
+msgid "YouTube"
+msgstr ""
+
+#: inc/widgets.php:297
+msgid "YouTube URL:"
+msgstr ""
